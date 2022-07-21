@@ -25,7 +25,6 @@ if (!file.exists(Project)) {
   
 }
 
-
 #The barcode represents an individual case in TCGA-LUAD. This is a way to split and prepare the data to be downloaded.
 barcode <- project$results[[1]]$cases
 
