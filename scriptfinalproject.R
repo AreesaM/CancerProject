@@ -25,13 +25,6 @@ if (!file.exists(Project)) {
   
 }
 
-class(project)
-dim(project)
-colnames(project)
-
-class(project$results)
-class(project$results[[1]])
-dim(project$results[[1]])
 
 #The barcode represents an individual case in TCGA-LUAD. This is a way to split and prepare the data to be downloaded.
 barcode <- project$results[[1]]$cases
